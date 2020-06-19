@@ -128,6 +128,12 @@ If enabled via one of the above options, the redactor also always regenerates th
 - SOPInstanceUID
 - MediaStorageSOPInstanceUID 
 
+## Deployment via Google Cloud Marketplace
+
+Deploy Dicom adapter to Google Kubernetes Engine using Google Cloud Marketplace, by following the on-screen instructions.
+For the details of importer flags, see [here](import/src/main/java/com/google/cloud/healthcare/imaging/dicomadapter/Flags.java).
+For the details of exporter flags, see [here](export/src/main/java/com/google/cloud/healthcare/imaging/dicomadapter/Flags.java).
+
 ## Deployment using Kubernetes
 
 The adapters can be deployed to Google Cloud Platform using [GKE] (https://cloud.google.com/kubernetes-engine/). We have published prebuilt Docker images for the both adapters to [Google Container Registry](https://cloud.google.com/container-registry/).
